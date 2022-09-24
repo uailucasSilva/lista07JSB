@@ -1,0 +1,46 @@
+img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    display: block;
+}
+
+div.container>div {
+    padding: 10px;
+    text-align: center;
+
+}
+
+button,
+input {
+    margin: auto;
+    margin-top: 5px;
+    width: 150px;
+    height: 30px;
+
+    border-radius: 15px;
+    display: block;
+}
+
+input {
+    outline: 0;
+    border: 1px solid;
+    text-align: center;
+    color: rgb(173, 48, 48);
+}
+
+button {
+    background-color: rgb(173, 48, 48);
+    color: white;
+    border: none;
+}

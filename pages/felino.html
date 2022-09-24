@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo dos felinos</title>
+    <script src="../scripts/felino.js"></script>
+    <link rel="stylesheet" href="../styles/felino.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img src="../imagens/gato01.gif" alt="" onclick="gato1()">
+            <p>Clique em mim!</p>
+        </div>
+        <div>
+            <img src="../imagens/gato02.gif" alt="" onclick="gato2()" value="1">
+            <p>Clique sobre mim várias vezes!</p>
+            <p>Carinhos: <span id="contador">0</span></p>
+        </div>
+        <div>
+            <img src="../imagens/gato03.gif" alt="" id="gato3" onmouseover="gato3()" onmouseout="restauraGato()">
+            <p>Passe o cursor do mouse sobre mim!</p>
+        </div>
+        <div>
+            <img src="../imagens/gato04.gif" alt="" onmouseover="gato4()" onmouseout="restauraTxt()">
+            <p id="gato4">lá lá lá lá lá lá</p>
+        </div>
+        <div>
+            <img src="../imagens/gato05.gif" alt="">
+            <button onclick="gerarNro()">Gerar número da sorte</button>
+            <input id="nroSorte"></input>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+fieldset {
+    border: green 5px solid;
+    width: 400px;
+    align-self: center;
+}
+
+legend {
+    text-align: center;
+    color: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="button"] {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    width: 40%;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+label,
+input[type="text"] {
+    color: green;
+}
+
+input[type="text"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: green solid 3px;
+    width: 60%;
+    margin-left: 10px;
+    outline: 0;
+}
+
+.msgErro {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: 10px;
+}

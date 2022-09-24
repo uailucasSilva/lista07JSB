@@ -1,0 +1,17 @@
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+button {
+    margin: auto;
+    margin-top: 5px;
+    width: 350px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block;    
+}
