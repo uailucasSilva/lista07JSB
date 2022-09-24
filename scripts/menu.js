@@ -5,5 +5,5 @@ function getTxt() {
 }
 
 function entrar() {
-    window.open('felino.html');
+    window.open('felino.html', '_self');
 }
